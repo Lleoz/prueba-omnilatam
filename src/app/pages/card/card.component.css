@@ -2,8 +2,50 @@
     display:inline-block;
     margin: 0.5rem;
     text-align: center;
+    background-color: #fff;
+    border-radius: .6rem;
+    box-shadow: 0 8px 21px rgb(0 0 0 / 17%);
+    padding: 2.2rem 1.6rem;
 }
 .caracteristicas{
     font-size: 14px;
     font-weight: 600;
+}
+
+.boton{
+    background-color: #d4db26;
+    color: #004a34;
+    padding: 0 16px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 4px;
+    font-size: 1.4rem;
+    border: none;
+    line-height: 1;
+    transition: background-color .3s,color .3s;
+    cursor: pointer;
+    font-family: LocalizaDinDisplay_Med;
+    text-transform: uppercase;
+    width: 100%;
+    height: 3rem;
+    font-size: 14px;
+}
+
+.boton:hover{
+    background-color: #e8f032;
+}
+
+.car-title{
+    font-size: 14px;
+    letter-spacing: -.01em;
+    margin-bottom: 20px;
+    text-align: center
+}
+
+.car-text{
+    font-size: 14px;
+    letter-spacing: -.01em;
+    margin-bottom: 20px;
+    text-align: center
 }

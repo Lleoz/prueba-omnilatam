@@ -1,10 +1,10 @@
-<div class="row">
-    <h2>Buscador por marca</h2>
-    <select name="miselect" (change)="buscador($event.target.value)">
+<div class="row buscador">
+    <h3 class="col-6">Buscador por marca</h3>
+    <select class="col-4" name="miselect" (change)="buscador($event.target.value)">
         <option selected disabled>Selecione</option>
         <option *ngFor="let branch of listBranch">{{branch}}</option>
     </select>
-    <a class="badge badge-primary" (click)="reset()">Reset Filtro</a>
+    <a class="badge badge-primary col-2" (click)="reset()">Reset Filtro</a>
 </div>
 <ng-container *ngIf="listCardHTML.length">
     <app-card *ngFor="let card of listCardHTML" [car]="card"></app-card>

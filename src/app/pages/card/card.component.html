@@ -1,9 +1,9 @@
 <div class="card" style="width: 18rem;">
     <img src='../../assets/images/{{car.photos.small}}' class="card-img-top">
     <div class="card-body">
-        <h5 class="card-title">{{car.brand | uppercase}}</h5>
-        <p class="card-text">{{car.price | currency: 'COP':'$':'1.0-0'}} / dia </p>
-        <a class="btn btn-primary" (click)="onClickSelect(car.id)">Ver más</a>
+        <h5 class="car-title">{{car.brand | uppercase}}</h5>
+        <p class="car-text">{{car.price | currency: 'COP':'$':'1.0-0'}} / dia </p>
+        <button class="boton" (click)="onClickSelect(car.id)">Reservar Ahora</button>
     </div>
 </div>
 
@@ -39,6 +39,6 @@
         <h2>Valor: {{carSelected.price | currency: 'COP':'$':'1.0-0'}} / dia </h2>
     </div>
     <div class=" modal-footer">
-        <button type="button" class="btn btn-outline-dark" (click)="modal.close('Save click')">Alquilar</button>
+        <button type="button" class="boton" (click)="modal.close('Save click')">Reservar</button>
     </div>
 </ng-template>

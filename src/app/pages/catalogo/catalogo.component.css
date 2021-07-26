@@ -1,4 +1,8 @@
 
 .badge{
-    color: #0a58ca
+    color: #0a58ca;
+    font-size:1rem;
+}
+.buscador{
+    margin: 1rem 0rem;
 }
