@@ -1,0 +1,164 @@
+{
+    "cars": [
+        {
+            "id": 1,
+            "photos": {
+                "small": "i4-small.jpg",
+                "large": "i4-large.jpg"
+            },
+            "model": "2021",
+            "year": "2022",
+            "brand": "BMW",
+            "price": "120000000",
+            "characteristics": {
+                "type": {
+                    "Tipo": "Gasoline Car"
+                },
+                "autonomia": {
+                    "Autonomia": "Más de 600km de autonomia"
+                },
+                "Aceleracion": {
+                    "Aceleracion": "De 0 a 100km en menos de 5 segundos"
+                },
+                "Carga": {
+                    "Velocidad de Carga": "Más de 120 km en 10 minutos con carga rápida"
+                }
+            }
+        },
+        {
+            "id": 2,
+            "photos": {
+                "small": "z4-small.jpg",
+                "large": "z4-large.jpg"
+            },
+            "model": "2020",
+            "year": "2022",
+            "brand": "BMW",
+            "price": "140000000",
+            "characteristics": {
+                "type": {
+                    "Tipo": "Gasoline Car"
+                },
+                "potencia": {
+                    "HP": "340 hp"
+                },
+                "frenos": {
+                    "Frenos": "Frenos antibloqueo"
+                },
+                "airbags": {
+                    "airbags": "4 airbargs"
+                }
+            }
+        },
+        {
+            "id": 3,
+            "photos": {
+                "small": "911-small.jpg",
+                "large": "911-large.jpg"
+            },
+            "model": "2022",
+            "year": "2022",
+            "brand": "PORCHE",
+            "price": "110000000",
+            "characteristics": {
+                "type": {
+                    "Tipo": "Electric Car"
+                },
+                "motor": {
+                    "Number of cylinders": "6",
+                    "Fuel grade": "98 ZAHL",
+                    "Bore": "91.0 mm",
+                    "Power (kW)": "283 kW"
+                },
+                "body": {
+                    "Length": "4,519 mm",
+                    "Width": "1,852 mm",
+                    "Height": "1,298 mm"
+                },
+                "capacities": {
+                    "Fuel tank": "64 l"
+                }
+            }
+        },
+        {
+            "id": 4,
+            "photos": {
+                "small": "i4-small.jpg",
+                "large": "i4-large.jpg"
+            },
+            "model": "2021",
+            "year": "2022",
+            "brand": "BMW",
+            "price": "120000000",
+            "characteristics": {
+                "type": {
+                    "Tipo": "Gasoline Car"
+                },
+                "autonomia": {
+                    "Autonomia": "Más de 600km de autonomia"
+                },
+                "Aceleracion": {
+                    "Aceleracion": "De 0 a 100km en menos de 5 segundos"
+                },
+                "Carga": {
+                    "Velocidad de Carga": "Más de 120 km en 10 minutos con carga rápida"
+                }
+            }
+        },
+        {
+            "id": 5,
+            "photos": {
+                "small": "z4-small.jpg",
+                "large": "z4-large.jpg"
+            },
+            "model": "2020",
+            "year": "2022",
+            "brand": "BMW",
+            "price": "140000000",
+            "characteristics": {
+                "type": {
+                    "Tipo": "Gasoline Car"
+                },
+                "potencia": {
+                    "HP": "340 hp"
+                },
+                "frenos": {
+                    "Frenos": "Frenos antibloqueo"
+                },
+                "airbags": {
+                    "airbags": "4 airbargs"
+                }
+            }
+        },
+        {
+            "id": 6,
+            "photos": {
+                "small": "911-small.jpg",
+                "large": "911-large.jpg"
+            },
+            "model": "2022",
+            "year": "2022",
+            "brand": "PORCHE",
+            "price": "110000000",
+            "characteristics": {
+                "type": {
+                    "Tipo": "Electric Car"
+                },
+                "motor": {
+                    "Number of cylinders": "6",
+                    "Fuel grade": "98 ZAHL",
+                    "Bore": "91.0 mm",
+                    "Power (kW)": "283 kW"
+                },
+                "body": {
+                    "Length": "4,519 mm",
+                    "Width": "1,852 mm",
+                    "Height": "1,298 mm"
+                },
+                "capacities": {
+                    "Fuel tank": "64 l"
+                }
+            }
+        }
+    ]
+}

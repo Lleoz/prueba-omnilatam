@@ -1,0 +1,44 @@
+<div class="card" style="width: 18rem;">
+    <img src='../../assets/images/{{car.photos.small}}' class="card-img-top">
+    <div class="card-body">
+        <h5 class="card-title">{{car.brand | uppercase}}</h5>
+        <p class="card-text">{{car.price | currency: 'COP':'$':'1.0-0'}} / dia </p>
+        <a class="btn btn-primary" (click)="onClickSelect(car.id)">Ver más</a>
+    </div>
+</div>
+
+<ng-template #modalMensaje let-modal>
+    <div class="modal-header">
+        <h4 class="modal-title">
+            <span>{{carSelected.brand}}</span>
+        </h4>
+        <button type="button" class="close" aria-label="Close" (click)="modal.dismiss('Cross click')">
+            <span aria-hidden="true">&times;</span>
+        </button>
+    </div>
+    <div class="modal-body">
+        <div class="row">
+            <div class="col-6">
+                <ngb-accordion #acc="ngbAccordion" [closeOthers]="true" activeIds="ngb-panel-0">
+                    <ngb-panel *ngFor="let characteristic of listcharacteristics;"
+                        title="{{characteristic | titlecase}}">
+                        <ng-template ngbPanelContent>
+                            <span [innerHtml]="carSelected.characteristics[characteristic] | jsonTable">
+                            </span>
+
+                        </ng-template>
+                    </ngb-panel>
+                </ngb-accordion>
+
+            </div>
+            <div class="col-6">
+                <img src='../../assets/images/{{carSelected.photos.large}}' class='img-fluid'>
+            </div>
+        </div>
+        <p>
+        <h2>Valor: {{carSelected.price | currency: 'COP':'$':'1.0-0'}} / dia </h2>
+    </div>
+    <div class=" modal-footer">
+        <button type="button" class="btn btn-outline-dark" (click)="modal.close('Save click')">Alquilar</button>
+    </div>
+</ng-template>
